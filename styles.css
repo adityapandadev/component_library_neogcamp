@@ -2,6 +2,7 @@
 
 :root{
     --primary-color : #60A5FA;
+    --offwhite : #F3F4F6;
     --dark-gray : #4B5563;
 
 }
@@ -101,4 +102,20 @@ body{
     color: var(--primary-color);
 }
 
+/* Sections */
+
+.section{
+    padding: 1rem;
+    margin: 1rem 10rem;
+}
+
+.section h2{
+    text-align: center;
+    
+}
+
+.ow{
+    background-color: var(--offwhite);
+    padding: 1rem;
+}
 
